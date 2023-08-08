@@ -22,3 +22,4 @@ class Punto:  # crea la clase de tipo punto
         # aplica la formula para calcular la distancia
 
         self.distancia: float = ((punto_x - self.posicion_X)**2 + (punto_y - self.posicion_y)**2)**(1/2)
+        return self.distancia  # se retorna la distancia
